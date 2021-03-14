@@ -1,0 +1,9 @@
+.sider {
+  /* border: 1px #000000 solid; */
+}
+
+.header {
+  text-align: start;
+  box-shadow: -1px -1px 1px 1px #cccccc;
+  border-bottom: 1px #cccccc solid;
+}

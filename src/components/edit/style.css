@@ -1,0 +1,67 @@
+body {
+    font-size: 12px;
+}
+.node1 {
+    width: 100px;
+    height: 100px;
+}
+
+.graphContent {
+    display: flex;
+}
+#content {
+    border: 1px solid #ccc;
+    margin: 0 10px;
+    flex: 1;
+}
+#defaultContent {
+    width: 200px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.rect {
+    width: 70px;
+    height: 30px;
+    border: 1px solid #888;
+    background: lightblue;
+    cursor: pointer;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.process {
+    width: 70px;
+    height: 30px;
+    border: 1px solid #888;
+    background: lightblue;
+    cursor: pointer;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.condition {
+    transform: rotateZ(45deg);
+    border: 1px solid #888;
+    background: lightblue;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.condition span {
+    display: block;
+    transform: rotateZ(-45deg);
+}
